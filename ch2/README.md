@@ -1,7 +1,7 @@
 # DeepStream SDK Python bindingsのインストール
 
-下記サイトを参考にインストールします。
-　https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/v1.1.1/bindings
+下記サイトを参考にインストールします。   
+https://github.com/NVIDIA-AI-IOT/deepstream_python_apps/tree/v1.1.1/bindings
  
 ## Base dependencies
 ```
