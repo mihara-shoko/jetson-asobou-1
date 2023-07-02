@@ -1,0 +1,21 @@
+[property]
+enable=1
+config-width=1280
+config-height=720
+#osd-mode 0: Dont display any lines, rois and text
+#         1: Display only lines, rois and static text i.e. labels
+#         2: Display all info from 1 plus information about counts
+osd-mode=2
+#Set OSD font size that has to be displayed
+display-font-size=12
+
+## Per stream configuration
+[overcrowding-stream-0]
+enable=1
+roi-areaA=50;50;50;670;1230;670;1230;50
+#no of objects that will trigger OC
+object-threshold=4
+class-id=2
+
+
+

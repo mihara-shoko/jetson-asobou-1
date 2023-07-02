@@ -1,0 +1,41 @@
+[property]
+enable=1
+config-width=1280
+config-height=720
+#osd-mode 0: Dont display any lines, rois and text
+#         1: Display only lines, rois and static text i.e. labels
+#         2: Display all info from 1 plus information about counts
+osd-mode=2
+#Set OSD font size that has to be displayed
+display-font-size=12
+
+## Per stream configuration
+[line-crossing-stream-0]
+enable=1
+#Label;direction;lc
+line-crossing-IN=540;370;540;270;100;320;1180;320
+class-id=2
+#extended when 0- only counts crossing on the configured Line
+#              1- assumes extended Line crossing counts all the crossing
+extended=0
+#LC modes supported:
+#loose   : counts all crossing without strong adherence to direction
+#balanced: Strict direction adherence expected compared to mode=loose
+#strict  : Strict direction adherence expected compared to mode=balanced
+mode=loose
+
+[line-crossing-stream-0]
+enable=1
+#Label;direction;lc
+line-crossing-OUT=740;370;740;470;100;420;1180;420
+class-id=2
+#extended when 0- only counts crossing on the configured Line
+#              1- assumes extended Line crossing counts all the crossing
+extended=0
+#LC modes supported:
+#loose   : counts all crossing without strong adherence to direction
+#balanced: Strict direction adherence expected compared to mode=loose
+#strict  : Strict direction adherence expected compared to mode=balanced
+mode=loose
+
+
